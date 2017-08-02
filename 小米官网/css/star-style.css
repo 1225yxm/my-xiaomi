@@ -1,0 +1,146 @@
+#starshop{
+	width: 89.5%/*1200px*/;
+	height: 438px;
+	
+	position: absolute;
+	top:880px;
+	left: 75px;
+}
+
+#starshop-menu{
+	width: 100%/*1200px*/;
+	height: 58px;
+	position: relative;
+	
+}
+#starshop-menu1{
+	width: /*220px*/20%;
+	height: 58px;
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: #616161;
+	line-height: 58px;
+
+}
+
+#jiantou{
+	width: 72px;
+	height: 24px;
+	box-shadow: 0px 0px 10px lightgreen;
+	position: absolute;
+	right: 10px;
+	top: 25px;
+	
+}
+.jiantousize{
+	width: 36px;height: 24px;
+	
+	text-align: center;
+	line-height: 24px;
+	font-size: 20px;
+	color: #E0E0E0;
+}
+
+#jiantouyou{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+.jiantousize:hover{
+	color: #424242;
+}
+#starshop-main{
+	width: 100%;height: 380px;
+	display: flex;
+			
+				
+}
+.starshop-main{
+	width: /*234px*/20%;height: 380px;
+	
+	position: relative;	
+	flex-flow: row wrap; 
+	justify-content: space-between;
+	
+}
+
+.starshop-main-top{
+	width: 100%;height: 2px;
+	background-image: linear-gradient(to top right , #FFF9C4, #F9A825 );
+}
+#starshop-main-top1{
+	background-image: linear-gradient(to top right , #C8E6C9, #2E7D32 );
+}
+
+#starshop-main-top2{
+	background-image: linear-gradient(to top right , #81D4FA, #0277BD );
+}
+
+#starshop-main-top3{
+	background-image: linear-gradient(to top right , #ef9a9a, #c62828 );
+}
+
+#starshop-main-top4{
+	background-image: linear-gradient(to top right , #80CBC4, #00695C );
+}
+
+#starshop-main-top5{
+	background-image: linear-gradient(to top right , #FFF9C4, #F9A825 );
+}
+.starshop-main-picture-size{
+	width: 160px;height: 160px;
+	/*text-align: center;*/
+	/*line-height: ;*/
+	position: absolute;
+	top: 62px;
+	left: 37px;	
+}
+
+#starshop-main-picture1{
+	background: url(../img/images/xmad_14966625747867_qcTyh.png) no-repeat;
+	background-size: cover;
+}
+
+#starshop-main-picture2{
+	background:url(../img/images/xmad_14926862610682_UhkfS.png) no-repeat;
+	background-size: cover;
+}
+#starshop-main-picture3{
+	background: url(../img/images/e991f1e2-20d8-40c3-bf1d-012b122c986b.png) no-repeat;
+	background-size: cover;
+}
+
+#starshop-main-picture4{
+	background: url(../img/images/xmad_14926528960147_wJMsC.png) no-repeat;
+	background-size: cover;
+}
+
+#starshop-main-picture5{
+	background: url(../img/images/725a37e3-78b7-4298-8098-c40097bf179d.png) no-repeat;
+	background-size: cover;
+}
+.starshop-main-cov{
+	width: 100%;height: 160px;
+	position: absolute;
+	top: 222px;
+	text-align: center;
+	line-height: 52px;
+	
+}
+.starshop-main-font1
+{
+	font-size: 15px;
+	color: #212121;
+}
+
+.starshop-main-font2{
+	font-size: 10px;
+	color: #BDBDBD;
+}
+
+
+.starshop-main-font3{
+	font-size: 15px;
+	color: orangered;
+}

@@ -1,0 +1,220 @@
+#household{
+	width: 100%;
+	height: 672px;
+	position: absolute;
+	top: /*1398px*/1225px;
+	background-color: #F5F5F5;
+	position: relative;
+}
+#household-top{
+	width: /*1200px*/89.5%;
+	height: 58px;
+	position: absolute;
+	left: 75px;
+}
+
+#household-top1{
+	width: 23.3%;
+	height: 42px;
+	font-size: 25px;
+	font-family: "微软雅黑";
+	color: #616161;;
+	line-height: 42px;
+	position: absolute;
+	top: 8px;
+	
+}
+
+#household-top2{
+	width: 22.7%;height: 42px;
+	position: absolute;
+	right: 0px;
+	top: 8px;
+	display: inline-block;
+}
+
+.household-top2-size:hover{
+	color: #f44336;
+	border-bottom: 2px solid #f44336;
+}
+
+.household-top2-size{
+	width: 64px;
+	height: 42px;
+	display: inline-block;line-height: 42px;
+	text-align: center;
+	
+}
+
+#household-main{
+	width: 89.5%;height: 614px;
+	position: absolute;
+	top: 58px;left: 75px;
+	justify-content: space-between;
+}
+
+#household-main-left{
+	width: 234px;height: 614px;
+	background: url(../img/images/xmad_15012263229741_LcSWd.jpg) no-repeat;
+	background-size: cover;
+	
+}
+
+#household-main-right{
+	width: 962px;height: 614px;
+	position: absolute;
+	left: 234px;
+	top: 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+	
+}
+
+.household-main-picture {
+	width: 234px;height: 307px;
+	position: relative;
+	overflow: hidden;
+	background-color: white;
+}
+.household-main-top{
+	width: /*100px*/35%; height: 18px;
+	background-color: orange;
+	font-size: 15px;
+	color: whitesmoke;
+	text-align: center;
+	line-height: 15px;
+	position: absolute;
+	right: -20px;
+	top: 5px;
+	transform: rotate(35deg);
+	
+}
+
+#household-main-picture1{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background: url(../img/images/pms_1499138177.54329452!220x220.jpg) no-repeat;
+	background-size: cover;
+}
+
+#household-main-picture2{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background: url(../img/images/pms_1474944620.67265595!220x220.jpg) no-repeat;
+	background-size: cover;
+}
+
+#household-main-picture3{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background: url(../img/images/pms_1490077525.53218827!220x220.png) no-repeat;
+	background-size: cover;
+}
+
+#household-main-picture4{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background: url(../img/images/pms_1490604824.19051012!220x220.jpg) no-repeat;
+	background-size: cover;
+}
+
+#household-main-picture5{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background: url(../img/images/pms_1495440281.97624801!220x220.jpg) no-repeat;
+	background-size: cover;
+}
+
+#household-main-picture6{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background:  url(../img/images/T1hMK_BjEv1RXrhCrK!220x220.jpg) no-repeat;
+	background-size: cover;
+}
+
+#household-main-picture7{
+	width: /*150px*/64.1%;height: 150px;
+	position: absolute;
+	top: 35px;
+	left: 42px;
+	background: url(../img/images/T1GxCvBghT1RXrhCrK!220x220.jpg) no-repeat;
+	background-size: cover;
+}
+
+.household-main-font{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 185px;
+	line-height: 21px;	
+}
+
+.household-main-font1{
+	text-align: center;
+	font-size: 16px;
+	color: #212121;
+	
+}
+.household-main-font2{
+	text-align: center;
+	font-size: 15px;
+	color: #E0E0E0;
+}
+
+.household-main-font3{
+	text-align: center;
+	font-size: 16px;
+	color: orange;
+}
+p a{
+	text-decoration: line-through;
+}
+.household-main-hidden{
+	width: 100%;
+	height: 100px;
+	background-color: #FFA726;
+	
+	position: absolute;
+	top: 307px;
+	position: relative;
+	transition: all .2s ease-in-out; 
+}
+
+.hidden-font{
+	width: 95.7%;
+	height: 70px;
+	font-size: 15px;
+	line-height: 16px;
+	color: #424242;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+.hidden-end{
+	width: /*224px*/95.7%;height: 15px;
+	font-size: 15px;
+	color: #BDBDBD;
+	position: absolute;
+	left: 10px;
+	bottom: 0px;
+	line-height: 15px;
+}
+
+.household-main-picture:hover .household-main-hidden{
+	transform: translateY(-100px);
+}
